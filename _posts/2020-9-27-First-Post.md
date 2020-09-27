@@ -3,4 +3,4 @@ layout: post
 title: My First Post!
 ---
 
-This is my fira post
+This is my first post
