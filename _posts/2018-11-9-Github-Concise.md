@@ -47,10 +47,10 @@ title: A Concise Guide to Git from Command Line
 * To remove a file from git use <code>git rm</code>. Here is an example for a file named file1.txt:
 > <code>git rm file1.txt<br>
 > git commit -m "remove file1.txt"</code><br>
-But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+* But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
 > <code>git rm --cached file1.txt<br>
 > git commit -m "remove file1.txt"</code><br>
-And to push changes to remote repo:
+* And to push changes to remote repo:
 > <code>git push origin branch_name</code><br>
 (CREDIT: <a href="https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo">https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo</a>)
 * In case you would like to delete your GitHub repository, open the repository and click on Settings menu on the top of the page. Scroll all the way down on the settings page to find the Delete Repository option
