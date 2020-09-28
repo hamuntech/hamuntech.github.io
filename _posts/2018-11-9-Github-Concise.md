@@ -5,10 +5,10 @@ title: A Concise Guide to Git from Command Line
 
 * Go to the <a href="https://git-scm.com"> git website</a> and download git for your operating system
 * Open the command line terminal on your machine and execute following commands. I will be using commands specific to the default OSX terminal. Please use the corresponding file system commands for your operating system.
-    - pwd to “print working directory”. This will show your current directory.
-    - In case you will like to create git repository under another directory, use the cd command to navigate to that directory
-    - Use mkdir to create new directory under the main directory. This will be your local git repository
-    - Use cd to navigate to the new directory. Currently, this directory does not have any files. So, create a file using touch filename.ext. Please substitute ‘filename’ with your own filename and ‘ext’ with the file extension. It can be any valid filename and extension, for example, txt, rtf, java, swift, js etc.
+    - <code>pwd</code> to “print working directory”. This will show your current directory.
+    - In case you will like to create git repository under another directory, use the <code>cd<code> command to navigate to that directory
+    - Use <code>mkdir</code> to create new directory under the main directory. This will be your local git repository
+    - Use <code>cd</code> to navigate to the new directory. Currently, this directory does not have any files. So, create a file using <code>touch filename.ext</code>. Please substitute ‘filename’ with your own filename and ‘ext’ with the file extension. It can be any valid filename and extension, for example, txt, rtf, java, swift, js etc.
 * To clone a remote repository on to your machine locally, you can use git clone <repository_url> or fork another repository. <a href="https://help.github.com/articles/fork-a-repo/"> Fork a repo</a> and <a href="https://yangsu.github.io/pull-request-tutorial/"> Pull Request Tutorial</a> for details
 * Now, if you execute the command git without any parameters, it will provide you with the command usage details
 * In case you intend to exclude certain files or directories from the git process, create the .gitignore file (see details below)  before executing any git commands, as any files or directories that preexisted in the local git repository prior to creation of the .gitignore file will not be ignored. I usually prefer to execute following command before initializing a local git repository:
