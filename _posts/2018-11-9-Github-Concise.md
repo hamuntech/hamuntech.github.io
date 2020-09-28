@@ -29,12 +29,14 @@ title: A Concise Guide to Git from Command Line
 * After creating a new branch and working o it once you are ready to merge it with the master branch, first switch to the master branch using git checkout master and then execute the git merge <branch_to_be_merged>
 * To upload your code to GitHub, first go to <a href="https://github.com"> GitHub website</a> and sign up for a free account. Follow the instructions to setup either the SSH or HTTPS method of signing into your GitHub account from the command line
 * Create new repository on GitHub. You will have the option to either create a public or private repository that can optionally have a description as well as .gitignore,LICENSE.md andREADME.md files. I've reproduced post repository creation instructions below. Note that we can add the files LICENSE.md and .gitignore using the touch command.
+
 ## Create a new repository on the command line:
 > <code>echo "# repository-name" >> README.md<br>
 > git initgit add README.md<br>
 > git commit -m "first commit"<br>
 > git remote add origin https://github.com/username/repository-name.git<br>
 > git push -u origin master</code><br>
+
 ## Push an existing repository from the command line:
 > <code>git remote add origin https://github.com/username/repository-name.git<br>
 > git push -u origin master</code><br>
