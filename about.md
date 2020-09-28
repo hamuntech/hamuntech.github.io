@@ -22,22 +22,31 @@ I work in the Network Operations Center department for a major Canadian telecomm
  
 ### Skills
 
-<table>
-<tr><th>Technology</th><th>Skills</th></tr>
-<tr><td>Programming</td><td>RPG programming on OS/400, Web Development, Wordpress, SQL, PL/SQL, Oracle Apex, Visual Basic, C, C++, Java (PC & Android), C#, Assembly, JavaScript/ES6 (React, React Native, Node.js, WebRTC, Websockets, Ajax), Python, Swift, Flutter/Dart, XMPP, PHP</td></tr>
-<tr><td>Automation</td><td>Microfocus Operations Orchesrtration Studio, HPNA, UIPAth</td></tr>
-<tr><td>Business Intelligence</td><td>Splunk (SPL), Power BI</td></tr>
-<tr><td>Machine Learning</td><td>Machine Learning using Python and ML Libraries</td></tr>
-<tr><td>Big Data</td><td>Python programming on Apache Hadoop/HDFS architecture</td></tr>
-<tr><td>Cloud</td><td>OpenStack, Google Cloud, Firebase</td></tr>
-<tr><td>Computer Vision</td><td>OpenCV, Augmented & Virtual Reality</td></tr>
-<tr><td>Databases</td><td>Oracle, MySQL, MariaDB, Microsoft SQL Server</td></tr>
-<tr><td>Source Control</td><td>Git, GitHub</td></tr>
-<tr><td>Security</td><td>Ethical Hacking & Reversing</td></tr>
-<tr><td>Networking</td><td>Cisco Certified Network Professional, Microsoft Certified Professional, SDNs, OpenFlow, Mininet</td></tr>
-<tr><td>Operating Systems</td><td>OS400, OSX, Windows, Linux, Unix</td></tr>
-<tr><td>Hardware</td><td>A+ certified service technician, Network technologies and protocols</td></tr>
-</table>
+**Programming:** RPG programming on OS/400, Web Development, Wordpress, SQL, PL/SQL, Oracle Apex, Visual Basic, C, C++, Java (PC & Android), C#, Assembly, JavaScript/ES6 (React, React Native, Node.js, WebRTC, Websockets, Ajax), Python, Swift, Flutter/Dart, XMPP, PHP
+
+**Automation:** Microfocus Operations Orchesrtration Studio, HPNA, UIPAth
+
+**Business Intelligence:** Splunk (SPL), Power BI
+
+**Machine Learning:** Machine Learning using Python and ML Libraries
+
+**Big Data:** Python programming on Apache Hadoop/HDFS architecture
+
+**Cloud:** OpenStack, Google Cloud, Firebase
+
+**Computer Vision:** OpenCV, Augmented & Virtual Reality
+
+**Databases:** Oracle, MySQL, MariaDB, Microsoft SQL Server
+
+**Source Control:** Git, GitHub
+
+**Security:** Ethical Hacking & Reversing
+
+**Networking:** Cisco Certified Network Professional, Microsoft Certified Professional, SDNs, OpenFlow, Mininet
+
+**Operating Systems:** OS400, OSX, Windows, Linux, Unix
+
+**Hardware:** A+ certified service technician, Network technologies and protocols
 
 ### Contact me
 
