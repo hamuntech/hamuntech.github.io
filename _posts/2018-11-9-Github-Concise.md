@@ -1,7 +1,5 @@
----
 layout: post
 title: A Concise Guide to Git from Command Line
----
 * Go to the <a href="https://git-scm.com"> git website</a> and download git for your operating system
 * Open the command line terminal on your machine and execute following commands. I will be using commands specific to the default OSX terminal. Please use the corresponding file system commands for your operating system.
     - <code>pwd</code> to “print working directory”. This will show your current directory.
