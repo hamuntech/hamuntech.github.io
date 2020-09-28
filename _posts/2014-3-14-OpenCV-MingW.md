@@ -16,10 +16,10 @@ For anyone interested, here is the process I used to successfully build OpenCV 2
 - Open Windows command line and type 'cd C:/opencv/mingw', then type 'mingw32-make'. Once build process completes successfully, close the command line window.
 - Open Eclipse and create a sample project (You can use following code to test):
 
-> <code>#include <opencv2/core/core.hpp><br>
-> #include <opencv2/highgui/highgui.hpp><br>
-> #include <opencv2/opencv.hpp><br>
-> #include <iostream><br>
+> <code>#include &lt;opencv2/core/core.hpp&gt;<br>
+> #include &lt;opencv2/highgui/highgui.hpp&gt;<br>
+> #include &lt;opencv2/opencv.hpp&gt;<br>
+> #include &lt;iostream><br>
 >
 > using namespace std;<br>
 > using namespace cv;<br>
