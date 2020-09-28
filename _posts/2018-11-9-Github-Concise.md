@@ -1,3 +1,4 @@
+---
 layout: post
 title: A Concise Guide to Git from Command Line
 ---
