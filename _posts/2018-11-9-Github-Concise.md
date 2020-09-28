@@ -35,7 +35,6 @@ title: A Concise Guide to Git from Command Line
 > git commit -m "first commit"<br>
 > git remote add origin https://github.com/username/repository-name.git<br>
 > git push -u origin master</code><br>
-
 ## Push an existing repository from the command line:
 > <code>git remote add origin https://github.com/username/repository-name.git<br>
 > git push -u origin master</code><br>
