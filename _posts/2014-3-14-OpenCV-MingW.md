@@ -34,7 +34,8 @@ For anyone interested, here is the process I used to successfully build OpenCV 2
 >
 > waitKey(0);<br>
 > return 0;<br>
-> &#125;</code><br>
+> }</code><br>
+
 - Now, go to Project -> Properties -> C/C++ Build -> Settings -> MinGW C++ Linker -> Libraries, and add to the Libraries (-l) one by one, in Eclipse:
   - libopencv_calib3d248, libopencv_contrib248, libopencv_core248, libopencv_features2d248, libopencv_flann248 so and so on, depending on your code references.
   - Then add C:\opencv\mingw\lib under the Library search path (-L)
