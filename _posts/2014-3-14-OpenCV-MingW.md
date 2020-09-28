@@ -15,24 +15,25 @@ For anyone interested, here is the process I used to successfully build OpenCV 2
 - Open CMake executable and select Source Code=C:/opencv/sources, and Destination=C:/opencv/mingw. Click on 'Configure' button and make sure that 'MingW Makefiles' option is selected. Click 'Configure' again and then click on the 'Generate' button.
 - Open Windows command line and type 'cd C:/opencv/mingw', then type 'mingw32-make'. Once build process completes successfully, close the command line window.
 - Open Eclipse and create a sample project (You can use following code to test):
-> <code>#include <opencv2/core/core.hpp>
-> #include <opencv2/highgui/highgui.hpp>
-> #include <opencv2/opencv.hpp>
-> #include <iostream>
 
-> using namespace std;
-> using namespace cv;
-
-> int main()
-> {
-
-> Mat img = imread("c:/lenna.png", CV_LOAD_IMAGE_COLOR);
-
-> namedWindow("MyWindow", CV_WINDOW_AUTOSIZE);
-> imshow("MyWindow", img);
-
-> waitKey(0);
-> return 0;
+> <code>#include <opencv2/core/core.hpp><br>
+> #include <opencv2/highgui/highgui.hpp><br>
+> #include <opencv2/opencv.hpp><br>
+> #include <iostream><br>
+>
+> using namespace std;<br>
+> using namespace cv;<br>
+>
+> int main()<br>
+> {<br>
+>
+> Mat img = imread("c:/lenna.png", CV_LOAD_IMAGE_COLOR);<br>
+>
+> namedWindow("MyWindow", CV_WINDOW_AUTOSIZE);<br>
+> imshow("MyWindow", img);<br>
+>
+> waitKey(0);<br>
+> return 0;<br>
 > }</code>
 - Now, go to Project -> Properties -> C/C++ Build -> Settings -> MinGW C++ Linker -> Libraries, and add to the Libraries (-l) one by one, in Eclipse:
   - libopencv_calib3d248, libopencv_contrib248, libopencv_core248, libopencv_features2d248, libopencv_flann248 so and so on, depending on your code references.
