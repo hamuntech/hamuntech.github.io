@@ -52,7 +52,7 @@ title: A Concise Guide to Git from Command Line
 > git commit -m "remove file1.txt"</code><br>
 * And to push changes to remote repo:
 > <code>git push origin branch_name</code><br>
-(CREDIT: <a href="https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo">https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo</a>)
+(CREDIT: <a href="https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo">StackOverflow</a>)
 * In case you would like to delete your GitHub repository, open the repository and click on Settings menu on the top of the page. Scroll all the way down on the settings page to find the Delete Repository option
 * To revert a local git repository back to normal directory i.e., to undo git init, use <code>rm -rf .git</code> on the command line. Use <code>git status</code> before and after this command to confirm that the operation was successful
 
