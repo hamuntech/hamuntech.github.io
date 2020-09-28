@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 My name is Mo Aslam and I live in the picturesque small town of Aurora, Ontario Canada. I am an Oracle certified developer with skills in web and database development. My development experience includes working with multiple programming languages on various platforms, including but not limited to RPG, C/C++, Java, C#, PL/SQL, JavaScript, PHP, Swift, Dart & Flutter and Python.
