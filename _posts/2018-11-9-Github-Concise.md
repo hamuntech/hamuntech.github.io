@@ -2,7 +2,7 @@
 layout: post
 title: A Concise Guide to Git from Command Line
 ---
-&lt; &gt;
+
 * Go to the <a href="https://git-scm.com"> git website</a> and download git for your operating system
 * Open the command line terminal on your machine and execute following commands. I will be using commands specific to the default OSX terminal. Please use the corresponding file system commands for your operating system.
     - <code>pwd</code> to “print working directory”. This will show your current directory.
@@ -24,7 +24,7 @@ title: A Concise Guide to Git from Command Line
 * <code>git log</code> will show the history of commits
 * <code>git branch</code> will display the current branch
 * You can use <code>git checkout -b &lt;new-branch-name&gt;</code> to create new branch and switch to the new branch
-* To switch to another branch, use <code>git checkout < branch-name ></code>. You can also use <code>git checkout &lt;commit&gt;</code> to discard certain changes and roll back changes up to a certain point in the commit history. HEAD will move to the commit specified in git checkout. Current commit head is named HEAD (in uppercase) while the other commit heads are specified in lowercase
+* To switch to another branch, use <code>git checkout &lt;branch-name&gt;</code>. You can also use <code>git checkout &lt;commit&gt;</code> to discard certain changes and roll back changes up to a certain point in the commit history. HEAD will move to the commit specified in git checkout. Current commit head is named HEAD (in uppercase) while the other commit heads are specified in lowercase
 * To delete a branch, use <code>git branch -D &lt;branch-name&gt;</code>
 * After creating a new branch and working on it, once you are ready to merge it with the master branch, first switch to the master branch using <code>git checkout master</code> and then execute the <code>git merge &lt;branch_to_be_merged&gt;</code>
 * To upload your code to GitHub, first go to <a href="https://github.com"> GitHub website</a> and sign up for a free account. Follow the instructions to setup either the SSH or HTTPS method of signing into your GitHub account from the command line
@@ -45,7 +45,7 @@ title: A Concise Guide to Git from Command Line
 * Use <code>git remote –v</code> to see the names git has stored for the local short name (usually origin)
 * Now, you can push and pull changes to and from the remote GitHub repository using commands <code>git push &lt;remote_name&gt; &lt;remote_branch&gt;</code> and <code>git pull &lt;remote_name&gt; &lt;remote_branch&gt;</code>. For example, <code>git push origin master</code> and <code>git pull origin master</code>. You may be prompted to enter your GitHub credentials. Please see <a href="https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended"> Which remote URL should I use?</a> and <a href="https://help.github.com/articles/caching-your-github-password-in-git/"> Caching your GitHub password in Git</a> pages for details. When you execute <code>git push origin master</code> you may get a message to execute the pull first using <code>git pull origin master</code>. Once you execute <code>git pull origin master</code>, you may get the error "fatal: refusing to merge unrelated histories". In case you do get this error, you will either need to do a commit or a hard reset, using the syntax <code>git commit -m "commit message"</code> or <code>git pull origin master --allow-unrelated-histories</code> before executing <code>git pull origin master</code>. If you are prompted to explain why this merge is necessary, either type :q or :x to exit. Use <code>git status</code> to make sure that the working tree is clean and finally execute <code>git push origin master</code> to upload the repository to Github. In case you make changes to any files directly on the Github website, use <code>git pull origin master</code> to synchronize with the local repository
 * To create a new branch and then pushing it to the remote repository, use <code>git checkout –b &lt;new_branch_name&gt;</code> and make whatever changes you would like to the files stored in this branch. Once you are ready to push this new branch to the remote repository, execute the <code>git push –u origin &lt;new_branch_name&gt;</code>. This will automatically link the local and remote branches. Please see <a href="https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches"> Create a new branch with git and manage branches</a> for details
-* To remove a file from git use 'git rm'. Here is an example for a file named file1.txt:
+* To remove a file from git use <code>git rm</code>. Here is an example for a file named file1.txt:
 > <code>git rm file1.txt<br>
 > git commit -m "remove file1.txt"</code><br>
 But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
