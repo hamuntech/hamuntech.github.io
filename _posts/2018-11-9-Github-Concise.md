@@ -16,6 +16,7 @@ title: A Concise Guide to Git from Command Line
 > touch LICENSE<br>
 > touch .gitignore<br>
 > open .gitignore</code>  (Use this command to edit the file)<br>
+
 To convert the current directory into a local git repository, execute git init
 To find out the current status of the local git repository, use git status command. This command will display the current branch, and to stage and discard changes from the commit operation.
 You can use either use git add <filename.ext> to add a single file, or git add . or git add –A to stage the changes to be added to the next commit operation for all files. Note that "git add ." only affects the current directory and subdirectories and "git add -A" also stages files in higher directories
