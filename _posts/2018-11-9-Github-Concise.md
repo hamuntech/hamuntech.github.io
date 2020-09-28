@@ -56,6 +56,7 @@ And to push changes to remote repo:
 * In case you would like to delete your GitHub repository, open the repository and click on Settings menu on the top of the page. Scroll all the way down on the settings page to find the Delete Repository option
 * To revert a local git repository back to normal directory i.e., to undo git init, use rm -rf .git on the command line. Use git status before and after this command to confirm that the operation was successful
 ## .gitignore file
+
 The presence of this file in a git repository allows us to exclude any files or folders from the git repository. Any files or folders listed in this file will be ignored by git. Please note that only the files and folders added to the git repository after the creation of .gitignore file will be ignored in case they are listed in it. Any files or folders that existed in your repository prior to the creation of .gitignore file will not be ignored even if they are listed to be excluded in this file.
 
 In case you would like to exclude a single file, just specify that file in the .gitignore file within your git repository. For example, for a file named example1.txt, just write the full filename in .gitignore as is, i.e., example1.txt.
