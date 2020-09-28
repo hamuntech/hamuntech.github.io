@@ -9,13 +9,13 @@ title: A Concise Guide to Git from Command Line
     - In case you will like to create git repository under another directory, use the cd command to navigate to that directory
     - Use mkdir to create new directory under the main directory. This will be your local git repository
     - Use cd to navigate to the new directory. Currently, this directory does not have any files. So, create a file using touch filename.ext. Please substitute ‘filename’ with your own filename and ‘ext’ with the file extension. It can be any valid filename and extension, for example, txt, rtf, java, swift, js etc.
-* To clone a remote repository on to your machine locally, you can use git clone <repository_url> or fork another repository. See [Fork a repo](https://help.github.com/articles/fork-a-repo/ "Fork a repo") and [Pull Request Tutorial](https://yangsu.github.io/pull-request-tutorial/ "Pull Request Tutorial") for details
+* To clone a remote repository on to your machine locally, you can use git clone <repository_url> or fork another repository. <a href="https://help.github.com/articles/fork-a-repo/"> Fork a repo</a> and <a href="https://yangsu.github.io/pull-request-tutorial/"> Pull Request Tutorial</a> for details
 * Now, if you execute the command git without any parameters, it will provide you with the command usage details
 * In case you intend to exclude certain files or directories from the git process, create the .gitignore file (see details below)  before executing any git commands, as any files or directories that preexisted in the local git repository prior to creation of the .gitignore file will not be ignored. I usually prefer to execute following command before initializing a local git repository:
-`echo "# repository-name" >> README.md
+<code>echo "# repository-name" >> README.md
 touch LICENSE
 touch .gitignore
-open .gitignore` (Use this command to edit the file)  
+open .gitignore (Use this command to edit the file)</code>  
 To convert the current directory into a local git repository, execute git init
 To find out the current status of the local git repository, use git status command. This command will display the current branch, and to stage and discard changes from the commit operation.
 You can use either use git add <filename.ext> to add a single file, or git add . or git add –A to stage the changes to be added to the next commit operation for all files. Note that "git add ." only affects the current directory and subdirectories and "git add -A" also stages files in higher directories
