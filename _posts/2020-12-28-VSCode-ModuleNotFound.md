@@ -18,11 +18,11 @@ ModuleNotFoundError: No module named 'tensorflow'
 
 First, make sure that the "Run Code" button looks like this:
 
-![CodeRunnerButton](../images/vscode_cr1.png "Code Runner Button")
+![CodeRunnerButton](./assets/vscode_cr1.png "Code Runner Button")
 
 Then, click on the Extensions option in the left side bar and search for "code runner". Select Code Runner and uninstall it. Once completed, come back to the code window and notice that the button to run code has changed to a green button, similar to the one below, and now you should be able to run Python code without any issues. 
 
-![PythonRunButton](../images/vscode_cr2.png "Run Python Code Button")
+![PythonRunButton](./assets/vscode_cr2.png "Run Python Code Button")
 
 Note that this is not an issue with Visual Studio Code, but rather its related to the Code Runner extension. 
 
