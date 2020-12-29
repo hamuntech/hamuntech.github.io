@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VSCode Code Runner Error 'ModuleNotFoundError'
+title: VSCode Code Runner 'ModuleNotFoundError'
 ---
 In case you receive an error similar to the one as depicted below in Visual Studio Code while trying to run Python code in a xxx.py file, using the "Run Code" button on the top right hand side of the code window, then please use following process to resolve the issue.
 
