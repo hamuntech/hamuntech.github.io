@@ -6,5 +6,5 @@ Fasion dataset used in the previous post was trained with a CNN. Note 99% traini
 
 <div>
   <h1>Tensorflow Fashion MNIST CNN</h1>
-  <script src="https://gist.github.com/hamuntech/39965b427689492abd06e701c7861d1a.js"></script>
+    <script src="https://gist.github.com/hamuntech/4b30160e4f1c6772dcea064c2095470f.js"></script>
 </div>
