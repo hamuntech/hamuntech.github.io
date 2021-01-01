@@ -19,11 +19,11 @@ Further info about the model can be found here:
  <col width=81 style='mso-width-source:userset;mso-width-alt:2602;width:61pt'>
  <col width=271 style='mso-width-source:userset;mso-width-alt:8661;width:203pt'>
  <tr height=24 style='height:18.0pt'>
-  <th height=24 class=xl65 width=364 style='height:18.0pt;width:273pt'>Layer
-  (type)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
-  <th width=188 style='width:141pt'>Output Shape &nbsp; &nbsp; &nbsp; &nbsp;</th>
-  <th width=81 style='width:61pt'>Param # &nbsp;</th>
-  <th width=271 style='width:203pt'>&nbsp; Connected to&nbsp; &nbsp; &nbsp;
+  <th height=24 class=xl65 width=364 style='height:18.0pt;width:273pt'><b>Layer
+  (type)</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+  <th width=188 style='width:141pt'><b>Output Shape</b> &nbsp; &nbsp; &nbsp; &nbsp;</th>
+  <th width=81 style='width:61pt'><b>Param #</b> &nbsp;</th>
+  <th width=271 style='width:203pt'>&nbsp; <b>Connected to</b> &nbsp; &nbsp; &nbsp;
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
  </tr>
  <tr height=24 style='height:18.0pt'>
