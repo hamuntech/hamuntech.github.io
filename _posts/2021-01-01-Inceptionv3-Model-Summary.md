@@ -4436,8 +4436,8 @@ Further info about the model can be found here:
  </tr>
  <tr height=24 style='height:18.0pt'>
   <td height=24 class=xl65 style='height:18.0pt'>Non-trainable params:
-  21,802,78</td>
-  <td align=right>4</td>
+  21,802,784</td>
+  <td align=right></td>
   <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=24 style='height:18.0pt'>
@@ -4446,12 +4446,4 @@ Further info about the model can be found here:
   <td>_________</td>
   <td>________________________________</td>
  </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 style='display:none'>
-  <td width=364 style='width:273pt'></td>
-  <td width=188 style='width:141pt'></td>
-  <td width=81 style='width:61pt'></td>
-  <td width=271 style='width:203pt'></td>
- </tr>
- <![endif]>
 </table>
